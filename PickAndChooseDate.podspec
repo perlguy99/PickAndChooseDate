@@ -27,10 +27,10 @@ spec.source                = { :git => "https://github.com/perlguy99/PickAndChoo
 
 spec.framework             = "UIKit"
 
-spec.source_files          = "PickAndChoose/**/*.{swift}"
+spec.source_files          = "PickAndChooseDate/**/*.{swift}"
 
 # 9
-spec.resources             = "PickAndChoose/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+spec.resources             = "PickAndChooseDate/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 spec.swift_version         = "4.2"

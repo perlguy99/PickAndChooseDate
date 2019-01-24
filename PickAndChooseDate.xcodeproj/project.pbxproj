@@ -61,6 +61,8 @@
 		84FDDB8021FA4DC4007C21F1 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */; };
 		84FDDB8121FA4DC4007C21F1 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */; };
 		84FDDB8221FA4DC4007C21F1 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */; };
+		84FDDBA421FA521F007C21F1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDBA221FA521E007C21F1 /* LICENSE */; };
+		84FDDBA521FA521F007C21F1 /* PickAndChooseDate.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDBA321FA521F007C21F1 /* PickAndChooseDate.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +133,8 @@
 		84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+DateTools.swift"; sourceTree = "<group>"; };
 		84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Bundle.swift"; sourceTree = "<group>"; };
 		84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCollection.swift; sourceTree = "<group>"; };
+		84FDDBA221FA521E007C21F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		84FDDBA321FA521F007C21F1 /* PickAndChooseDate.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PickAndChooseDate.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 		84FDDAB121FA4812007C21F1 = {
 			isa = PBXGroup;
 			children = (
+				84FDDBA221FA521E007C21F1 /* LICENSE */,
+				84FDDBA321FA521F007C21F1 /* PickAndChooseDate.podspec */,
 				84FDDABD21FA4812007C21F1 /* PickAndChooseDate */,
 				84FDDAC821FA4813007C21F1 /* PickAndChooseDateTests */,
 				84FDDABC21FA4812007C21F1 /* Products */,
@@ -450,7 +456,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FDDBA421FA521F007C21F1 /* LICENSE in Resources */,
 				84FDDB5D21FA48D0007C21F1 /* PickAndChooseDate.xib in Resources */,
+				84FDDBA521FA521F007C21F1 /* PickAndChooseDate.podspec in Resources */,
 				84FDDB7321FA4DC4007C21F1 /* DateTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
