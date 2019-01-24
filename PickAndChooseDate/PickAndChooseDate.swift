@@ -9,9 +9,9 @@
 import UIKit
 import DateToolsSwift
 
-public protocol PickAndChooseDateDelegate {
-    
-}
+//public protocol PickAndChooseDateDelegate {
+//    
+//}
 
 
 @IBDesignable
@@ -80,7 +80,7 @@ public class PickAndChooseDate: UIView {
             // action with selected date
             print("\nDATE SELECTED: \(date)\n")
             
-            self.pickerLabel.text = date.dateTimeString()
+            self.setText(text: date.dateTimeString())
         }
 
         alert.addAction(title: "OK", style: .cancel)
@@ -88,10 +88,23 @@ public class PickAndChooseDate: UIView {
     }
     
     
+    public var currentValue: String? {
+        return pickerLabel.text
+    }
+    
+    public func setText(text: String) {
+        pickerLabel.textColor = fontColor?.withAlphaComponent(1)
+        pickerLabel.text = text
+    }
+    
+    
     @IBInspectable
     public var placeholderText: String? {
         get { return pickerLabel.text }
-        set { pickerLabel.text = newValue }
+        set {
+            pickerLabel.textColor = fontColor?.withAlphaComponent(0.6)
+            pickerLabel.text      = newValue
+        }
     }
 
     
@@ -151,9 +164,8 @@ public class PickAndChooseDate: UIView {
     }
     
     @IBInspectable
-    public var imageHeight: CGFloat {
-        get { return pickerImageViewHeightConstraint.constant }
-        set {
+    public var imageHeight: CGFloat = 40 {
+        didSet(newValue) {
             pickerImageView.size = CGSize(width: newValue, height: newValue)
             pickerImageViewHeightConstraint.constant = newValue
         }
