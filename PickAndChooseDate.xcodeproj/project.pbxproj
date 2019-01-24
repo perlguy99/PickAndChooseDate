@@ -32,10 +32,6 @@
 		84FDDB4121FA4856007C21F1 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAFA21FA4856007C21F1 /* TwoTextFieldsViewController.swift */; };
 		84FDDB4221FA4856007C21F1 /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAFB21FA4856007C21F1 /* OneTextFieldViewController.swift */; };
 		84FDDB4A21FA4856007C21F1 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0921FA4856007C21F1 /* PickerViewViewController.swift */; };
-		84FDDB4B21FA4856007C21F1 /* ContactsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0B21FA4856007C21F1 /* ContactsPickerViewController.swift */; };
-		84FDDB4C21FA4856007C21F1 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0D21FA4856007C21F1 /* Contacts.swift */; };
-		84FDDB4D21FA4856007C21F1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0F21FA4856007C21F1 /* Contact.swift */; };
-		84FDDB4E21FA4856007C21F1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB1121FA4856007C21F1 /* ContactCell.swift */; };
 		84FDDB5021FA4856007C21F1 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB1521FA4856007C21F1 /* DatePickerViewController.swift */; };
 		84FDDB5721FA4856007C21F1 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2221FA4856007C21F1 /* Label.swift */; };
 		84FDDB5821FA4856007C21F1 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2321FA4856007C21F1 /* SegmentedControl.swift */; };
@@ -93,10 +89,6 @@
 		84FDDAFA21FA4856007C21F1 /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
 		84FDDAFB21FA4856007C21F1 /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
 		84FDDB0921FA4856007C21F1 /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
-		84FDDB0B21FA4856007C21F1 /* ContactsPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerViewController.swift; sourceTree = "<group>"; };
-		84FDDB0D21FA4856007C21F1 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
-		84FDDB0F21FA4856007C21F1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		84FDDB1121FA4856007C21F1 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		84FDDB1521FA4856007C21F1 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		84FDDB2221FA4856007C21F1 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		84FDDB2321FA4856007C21F1 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
@@ -252,7 +244,6 @@
 			children = (
 				84FDDAF921FA4856007C21F1 /* TextFields */,
 				84FDDB0821FA4856007C21F1 /* PickerView */,
-				84FDDB0A21FA4856007C21F1 /* Contacts */,
 				84FDDB1421FA4856007C21F1 /* Date */,
 			);
 			path = Pickers;
@@ -273,41 +264,6 @@
 				84FDDB0921FA4856007C21F1 /* PickerViewViewController.swift */,
 			);
 			path = PickerView;
-			sourceTree = "<group>";
-		};
-		84FDDB0A21FA4856007C21F1 /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				84FDDB0B21FA4856007C21F1 /* ContactsPickerViewController.swift */,
-				84FDDB0C21FA4856007C21F1 /* Managers */,
-				84FDDB0E21FA4856007C21F1 /* Models */,
-				84FDDB1021FA4856007C21F1 /* Views */,
-			);
-			path = Contacts;
-			sourceTree = "<group>";
-		};
-		84FDDB0C21FA4856007C21F1 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				84FDDB0D21FA4856007C21F1 /* Contacts.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		84FDDB0E21FA4856007C21F1 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				84FDDB0F21FA4856007C21F1 /* Contact.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		84FDDB1021FA4856007C21F1 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				84FDDB1121FA4856007C21F1 /* ContactCell.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		84FDDB1421FA4856007C21F1 /* Date */ = {
@@ -527,10 +483,8 @@
 				84FDDB5821FA4856007C21F1 /* SegmentedControl.swift in Sources */,
 				84FDDB5921FA4856007C21F1 /* GradientSlider.swift in Sources */,
 				84FDDB5A21FA4856007C21F1 /* TextField.swift in Sources */,
-				84FDDB4E21FA4856007C21F1 /* ContactCell.swift in Sources */,
 				84FDDB2A21FA4856007C21F1 /* UIViewController+Extensions.swift in Sources */,
 				84FDDB5B21FA4856007C21F1 /* Button.swift in Sources */,
-				84FDDB4B21FA4856007C21F1 /* ContactsPickerViewController.swift in Sources */,
 				84FDDB2D21FA4856007C21F1 /* String+Extensions.swift in Sources */,
 				84FDDB4A21FA4856007C21F1 /* PickerViewViewController.swift in Sources */,
 				84FDDB4221FA4856007C21F1 /* OneTextFieldViewController.swift in Sources */,
@@ -542,7 +496,6 @@
 				84FDDB2B21FA4856007C21F1 /* UIView+Extensions.swift in Sources */,
 				84FDDB2821FA4856007C21F1 /* UISegmentedControl+Extensions.swift in Sources */,
 				84FDDB4121FA4856007C21F1 /* TwoTextFieldsViewController.swift in Sources */,
-				84FDDB4D21FA4856007C21F1 /* Contact.swift in Sources */,
 				84FDDB3321FA4856007C21F1 /* UIAlertController+Extensions.swift in Sources */,
 				84FDDB2721FA4856007C21F1 /* Array+Extensions.swift in Sources */,
 				84FDDB3421FA4856007C21F1 /* Optional+Extensions.swift in Sources */,
@@ -556,7 +509,6 @@
 				84FDDB3521FA4856007C21F1 /* Common+Extensions.swift in Sources */,
 				84FDDB6121FA493A007C21F1 /* PaddedLabel.swift in Sources */,
 				84FDDB3921FA4856007C21F1 /* TextViewController.swift in Sources */,
-				84FDDB4C21FA4856007C21F1 /* Contacts.swift in Sources */,
 				84FDDB2E21FA4856007C21F1 /* UITextView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
