@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickAndChooseDate" customModule="PickAndChooseDate" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="8Jk-DY-pDf" id="AiE-dh-Mwg"/>
+                <outlet property="pickerImageView" destination="b0f-4B-gni" id="2Ua-8p-Rri"/>
+                <outlet property="pickerImageViewHeightConstraint" destination="JXl-B5-KaA" id="YIO-Ir-O4v"/>
+                <outlet property="pickerImageViewLeadingConstraint" destination="wh6-3o-CGH" id="HIw-PL-3P7"/>
+                <outlet property="pickerLabel" destination="bEs-gr-Dxh" id="ERp-xE-t6X"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Jk-DY-pDf" userLabel="Container View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b0f-4B-gni">
+                            <rect key="frame" x="8" y="5" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="JXl-B5-KaA"/>
+                                <constraint firstAttribute="width" secondItem="b0f-4B-gni" secondAttribute="height" multiplier="1:1" id="OQ4-le-Yrw"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEs-gr-Dxh" customClass="PaddedLabel" customModule="PickAndChooseDate" customModuleProvider="target">
+                            <rect key="frame" x="56" y="5" width="311" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="bEs-gr-Dxh" firstAttribute="top" secondItem="8Jk-DY-pDf" secondAttribute="top" priority="750" constant="5" id="5h9-kh-9vR"/>
+                        <constraint firstAttribute="bottom" secondItem="bEs-gr-Dxh" secondAttribute="bottom" constant="5" id="6eH-PK-PD1"/>
+                        <constraint firstItem="bEs-gr-Dxh" firstAttribute="leading" secondItem="b0f-4B-gni" secondAttribute="trailing" constant="8" id="Lmm-8D-0Qa"/>
+                        <constraint firstAttribute="trailing" secondItem="bEs-gr-Dxh" secondAttribute="trailing" constant="8" id="bez-br-68l"/>
+                        <constraint firstItem="b0f-4B-gni" firstAttribute="centerY" secondItem="8Jk-DY-pDf" secondAttribute="centerY" id="g8e-73-6MI"/>
+                        <constraint firstItem="b0f-4B-gni" firstAttribute="leading" secondItem="8Jk-DY-pDf" secondAttribute="leading" constant="8" id="wh6-3o-CGH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8Jk-DY-pDf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8NT-8i-nI3"/>
+                <constraint firstAttribute="bottom" secondItem="8Jk-DY-pDf" secondAttribute="bottom" id="VZ1-Gb-f9T"/>
+                <constraint firstAttribute="trailing" secondItem="8Jk-DY-pDf" secondAttribute="trailing" id="a44-u2-ZDN"/>
+                <constraint firstItem="8Jk-DY-pDf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aXw-Yq-fSJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

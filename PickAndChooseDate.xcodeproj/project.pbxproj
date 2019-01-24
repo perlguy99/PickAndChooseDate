@@ -10,6 +10,57 @@
 		84FDDAC521FA4813007C21F1 /* PickAndChooseDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FDDABB21FA4812007C21F1 /* PickAndChooseDate.framework */; };
 		84FDDACA21FA4813007C21F1 /* PickAndChooseDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAC921FA4813007C21F1 /* PickAndChooseDateTests.swift */; };
 		84FDDACC21FA4813007C21F1 /* PickAndChooseDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FDDABE21FA4812007C21F1 /* PickAndChooseDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84FDDB2721FA4856007C21F1 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAD821FA4856007C21F1 /* Array+Extensions.swift */; };
+		84FDDB2821FA4856007C21F1 /* UISegmentedControl+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAD921FA4856007C21F1 /* UISegmentedControl+Extensions.swift */; };
+		84FDDB2921FA4856007C21F1 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDADA21FA4856007C21F1 /* UIImageView+Extensions.swift */; };
+		84FDDB2A21FA4856007C21F1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDADB21FA4856007C21F1 /* UIViewController+Extensions.swift */; };
+		84FDDB2B21FA4856007C21F1 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDADC21FA4856007C21F1 /* UIView+Extensions.swift */; };
+		84FDDB2C21FA4856007C21F1 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDADD21FA4856007C21F1 /* Date+Extension.swift */; };
+		84FDDB2D21FA4856007C21F1 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDADE21FA4856007C21F1 /* String+Extensions.swift */; };
+		84FDDB2E21FA4856007C21F1 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDADF21FA4856007C21F1 /* UITextView+Extensions.swift */; };
+		84FDDB2F21FA4856007C21F1 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE021FA4856007C21F1 /* UIColor+Extensions.swift */; };
+		84FDDB3021FA4856007C21F1 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE121FA4856007C21F1 /* UIImage+Extensions.swift */; };
+		84FDDB3121FA4856007C21F1 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE221FA4856007C21F1 /* UISearchBar+Extensions.swift */; };
+		84FDDB3221FA4856007C21F1 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE321FA4856007C21F1 /* UIApplication+Extensions.swift */; };
+		84FDDB3321FA4856007C21F1 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE421FA4856007C21F1 /* UIAlertController+Extensions.swift */; };
+		84FDDB3421FA4856007C21F1 /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE521FA4856007C21F1 /* Optional+Extensions.swift */; };
+		84FDDB3521FA4856007C21F1 /* Common+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE621FA4856007C21F1 /* Common+Extensions.swift */; };
+		84FDDB3621FA4856007C21F1 /* Locale+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE721FA4856007C21F1 /* Locale+Extensions.swift */; };
+		84FDDB3721FA4856007C21F1 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAE821FA4856007C21F1 /* UITextField+Extensions.swift */; };
+		84FDDB3821FA4856007C21F1 /* AttributedTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAEB21FA4856007C21F1 /* AttributedTextBlock.swift */; };
+		84FDDB3921FA4856007C21F1 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAEC21FA4856007C21F1 /* TextViewController.swift */; };
+		84FDDB4121FA4856007C21F1 /* TwoTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAFA21FA4856007C21F1 /* TwoTextFieldsViewController.swift */; };
+		84FDDB4221FA4856007C21F1 /* OneTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDAFB21FA4856007C21F1 /* OneTextFieldViewController.swift */; };
+		84FDDB4A21FA4856007C21F1 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0921FA4856007C21F1 /* PickerViewViewController.swift */; };
+		84FDDB4B21FA4856007C21F1 /* ContactsPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0B21FA4856007C21F1 /* ContactsPickerViewController.swift */; };
+		84FDDB4C21FA4856007C21F1 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0D21FA4856007C21F1 /* Contacts.swift */; };
+		84FDDB4D21FA4856007C21F1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB0F21FA4856007C21F1 /* Contact.swift */; };
+		84FDDB4E21FA4856007C21F1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB1121FA4856007C21F1 /* ContactCell.swift */; };
+		84FDDB5021FA4856007C21F1 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB1521FA4856007C21F1 /* DatePickerViewController.swift */; };
+		84FDDB5721FA4856007C21F1 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2221FA4856007C21F1 /* Label.swift */; };
+		84FDDB5821FA4856007C21F1 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2321FA4856007C21F1 /* SegmentedControl.swift */; };
+		84FDDB5921FA4856007C21F1 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2421FA4856007C21F1 /* GradientSlider.swift */; };
+		84FDDB5A21FA4856007C21F1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2521FA4856007C21F1 /* TextField.swift */; };
+		84FDDB5B21FA4856007C21F1 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB2621FA4856007C21F1 /* Button.swift */; };
+		84FDDB5D21FA48D0007C21F1 /* PickAndChooseDate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDB5C21FA48D0007C21F1 /* PickAndChooseDate.xib */; };
+		84FDDB5F21FA492A007C21F1 /* PickAndChooseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB5E21FA492A007C21F1 /* PickAndChooseDate.swift */; };
+		84FDDB6121FA493A007C21F1 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6021FA493A007C21F1 /* PaddedLabel.swift */; };
+		84FDDB7321FA4DC4007C21F1 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDB6321FA4DC3007C21F1 /* DateTools.bundle */; };
+		84FDDB7421FA4DC4007C21F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6421FA4DC3007C21F1 /* Constants.swift */; };
+		84FDDB7521FA4DC4007C21F1 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6521FA4DC3007C21F1 /* Date+Format.swift */; };
+		84FDDB7621FA4DC4007C21F1 /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6621FA4DC3007C21F1 /* Date+Manipulations.swift */; };
+		84FDDB7721FA4DC4007C21F1 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6721FA4DC3007C21F1 /* TimePeriod.swift */; };
+		84FDDB7821FA4DC4007C21F1 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6821FA4DC3007C21F1 /* Date+Components.swift */; };
+		84FDDB7921FA4DC4007C21F1 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6921FA4DC3007C21F1 /* TimePeriodGroup.swift */; };
+		84FDDB7A21FA4DC4007C21F1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6A21FA4DC3007C21F1 /* Enums.swift */; };
+		84FDDB7B21FA4DC4007C21F1 /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6B21FA4DC3007C21F1 /* TimeChunk.swift */; };
+		84FDDB7C21FA4DC4007C21F1 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6C21FA4DC3007C21F1 /* TimePeriodChain.swift */; };
+		84FDDB7D21FA4DC4007C21F1 /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6D21FA4DC3007C21F1 /* Date+Comparators.swift */; };
+		84FDDB7E21FA4DC4007C21F1 /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6E21FA4DC3007C21F1 /* Date+Inits.swift */; };
+		84FDDB7F21FA4DC4007C21F1 /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6F21FA4DC3007C21F1 /* Date+TimeAgo.swift */; };
+		84FDDB8021FA4DC4007C21F1 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */; };
+		84FDDB8121FA4DC4007C21F1 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */; };
+		84FDDB8221FA4DC4007C21F1 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +80,57 @@
 		84FDDAC421FA4813007C21F1 /* PickAndChooseDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickAndChooseDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDDAC921FA4813007C21F1 /* PickAndChooseDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndChooseDateTests.swift; sourceTree = "<group>"; };
 		84FDDACB21FA4813007C21F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FDDAD821FA4856007C21F1 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAD921FA4856007C21F1 /* UISegmentedControl+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDADA21FA4856007C21F1 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDADB21FA4856007C21F1 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDADC21FA4856007C21F1 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDADD21FA4856007C21F1 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		84FDDADE21FA4856007C21F1 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDADF21FA4856007C21F1 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE021FA4856007C21F1 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE121FA4856007C21F1 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE221FA4856007C21F1 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE321FA4856007C21F1 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE421FA4856007C21F1 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE521FA4856007C21F1 /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE621FA4856007C21F1 /* Common+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE721FA4856007C21F1 /* Locale+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAE821FA4856007C21F1 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		84FDDAEB21FA4856007C21F1 /* AttributedTextBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextBlock.swift; sourceTree = "<group>"; };
+		84FDDAEC21FA4856007C21F1 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		84FDDAFA21FA4856007C21F1 /* TwoTextFieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoTextFieldsViewController.swift; sourceTree = "<group>"; };
+		84FDDAFB21FA4856007C21F1 /* OneTextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneTextFieldViewController.swift; sourceTree = "<group>"; };
+		84FDDB0921FA4856007C21F1 /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		84FDDB0B21FA4856007C21F1 /* ContactsPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsPickerViewController.swift; sourceTree = "<group>"; };
+		84FDDB0D21FA4856007C21F1 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		84FDDB0F21FA4856007C21F1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		84FDDB1121FA4856007C21F1 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		84FDDB1521FA4856007C21F1 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		84FDDB2221FA4856007C21F1 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		84FDDB2321FA4856007C21F1 /* SegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		84FDDB2421FA4856007C21F1 /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		84FDDB2521FA4856007C21F1 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		84FDDB2621FA4856007C21F1 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		84FDDB5C21FA48D0007C21F1 /* PickAndChooseDate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickAndChooseDate.xib; sourceTree = "<group>"; };
+		84FDDB5E21FA492A007C21F1 /* PickAndChooseDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndChooseDate.swift; sourceTree = "<group>"; };
+		84FDDB6021FA493A007C21F1 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		84FDDB6321FA4DC3007C21F1 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
+		84FDDB6421FA4DC3007C21F1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84FDDB6521FA4DC3007C21F1 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		84FDDB6621FA4DC3007C21F1 /* Date+Manipulations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Manipulations.swift"; sourceTree = "<group>"; };
+		84FDDB6721FA4DC3007C21F1 /* TimePeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriod.swift; sourceTree = "<group>"; };
+		84FDDB6821FA4DC3007C21F1 /* Date+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
+		84FDDB6921FA4DC3007C21F1 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodGroup.swift; sourceTree = "<group>"; };
+		84FDDB6A21FA4DC3007C21F1 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		84FDDB6B21FA4DC3007C21F1 /* TimeChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChunk.swift; sourceTree = "<group>"; };
+		84FDDB6C21FA4DC3007C21F1 /* TimePeriodChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodChain.swift; sourceTree = "<group>"; };
+		84FDDB6D21FA4DC3007C21F1 /* Date+Comparators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Comparators.swift"; sourceTree = "<group>"; };
+		84FDDB6E21FA4DC3007C21F1 /* Date+Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Inits.swift"; sourceTree = "<group>"; };
+		84FDDB6F21FA4DC3007C21F1 /* Date+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
+		84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+DateTools.swift"; sourceTree = "<group>"; };
+		84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Bundle.swift"; sourceTree = "<group>"; };
+		84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +173,13 @@
 		84FDDABD21FA4812007C21F1 /* PickAndChooseDate */ = {
 			isa = PBXGroup;
 			children = (
+				84FDDB6221FA4DC3007C21F1 /* DateTools */,
+				84FDDAD521FA4856007C21F1 /* AlertsAndPickers */,
 				84FDDABE21FA4812007C21F1 /* PickAndChooseDate.h */,
 				84FDDABF21FA4812007C21F1 /* Info.plist */,
+				84FDDB5C21FA48D0007C21F1 /* PickAndChooseDate.xib */,
+				84FDDB5E21FA492A007C21F1 /* PickAndChooseDate.swift */,
+				84FDDB6021FA493A007C21F1 /* PaddedLabel.swift */,
 			);
 			path = PickAndChooseDate;
 			sourceTree = "<group>";
@@ -84,6 +191,172 @@
 				84FDDACB21FA4813007C21F1 /* Info.plist */,
 			);
 			path = PickAndChooseDateTests;
+			sourceTree = "<group>";
+		};
+		84FDDAD521FA4856007C21F1 /* AlertsAndPickers */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAD621FA4856007C21F1 /* Source */,
+			);
+			path = AlertsAndPickers;
+			sourceTree = "<group>";
+		};
+		84FDDAD621FA4856007C21F1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAD721FA4856007C21F1 /* Extensions */,
+				84FDDAE921FA4856007C21F1 /* Viewers */,
+				84FDDAED21FA4856007C21F1 /* Pickers */,
+				84FDDB2121FA4856007C21F1 /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		84FDDAD721FA4856007C21F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAD821FA4856007C21F1 /* Array+Extensions.swift */,
+				84FDDAD921FA4856007C21F1 /* UISegmentedControl+Extensions.swift */,
+				84FDDADA21FA4856007C21F1 /* UIImageView+Extensions.swift */,
+				84FDDADB21FA4856007C21F1 /* UIViewController+Extensions.swift */,
+				84FDDADC21FA4856007C21F1 /* UIView+Extensions.swift */,
+				84FDDADD21FA4856007C21F1 /* Date+Extension.swift */,
+				84FDDADE21FA4856007C21F1 /* String+Extensions.swift */,
+				84FDDADF21FA4856007C21F1 /* UITextView+Extensions.swift */,
+				84FDDAE021FA4856007C21F1 /* UIColor+Extensions.swift */,
+				84FDDAE121FA4856007C21F1 /* UIImage+Extensions.swift */,
+				84FDDAE221FA4856007C21F1 /* UISearchBar+Extensions.swift */,
+				84FDDAE321FA4856007C21F1 /* UIApplication+Extensions.swift */,
+				84FDDAE421FA4856007C21F1 /* UIAlertController+Extensions.swift */,
+				84FDDAE521FA4856007C21F1 /* Optional+Extensions.swift */,
+				84FDDAE621FA4856007C21F1 /* Common+Extensions.swift */,
+				84FDDAE721FA4856007C21F1 /* Locale+Extensions.swift */,
+				84FDDAE821FA4856007C21F1 /* UITextField+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84FDDAE921FA4856007C21F1 /* Viewers */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAEA21FA4856007C21F1 /* Models */,
+				84FDDAEC21FA4856007C21F1 /* TextViewController.swift */,
+			);
+			path = Viewers;
+			sourceTree = "<group>";
+		};
+		84FDDAEA21FA4856007C21F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAEB21FA4856007C21F1 /* AttributedTextBlock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84FDDAED21FA4856007C21F1 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAF921FA4856007C21F1 /* TextFields */,
+				84FDDB0821FA4856007C21F1 /* PickerView */,
+				84FDDB0A21FA4856007C21F1 /* Contacts */,
+				84FDDB1421FA4856007C21F1 /* Date */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		84FDDAF921FA4856007C21F1 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDAFA21FA4856007C21F1 /* TwoTextFieldsViewController.swift */,
+				84FDDAFB21FA4856007C21F1 /* OneTextFieldViewController.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		84FDDB0821FA4856007C21F1 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB0921FA4856007C21F1 /* PickerViewViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		84FDDB0A21FA4856007C21F1 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB0B21FA4856007C21F1 /* ContactsPickerViewController.swift */,
+				84FDDB0C21FA4856007C21F1 /* Managers */,
+				84FDDB0E21FA4856007C21F1 /* Models */,
+				84FDDB1021FA4856007C21F1 /* Views */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		84FDDB0C21FA4856007C21F1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB0D21FA4856007C21F1 /* Contacts.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		84FDDB0E21FA4856007C21F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB0F21FA4856007C21F1 /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84FDDB1021FA4856007C21F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB1121FA4856007C21F1 /* ContactCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84FDDB1421FA4856007C21F1 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB1521FA4856007C21F1 /* DatePickerViewController.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		84FDDB2121FA4856007C21F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB2221FA4856007C21F1 /* Label.swift */,
+				84FDDB2321FA4856007C21F1 /* SegmentedControl.swift */,
+				84FDDB2421FA4856007C21F1 /* GradientSlider.swift */,
+				84FDDB2521FA4856007C21F1 /* TextField.swift */,
+				84FDDB2621FA4856007C21F1 /* Button.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84FDDB6221FA4DC3007C21F1 /* DateTools */ = {
+			isa = PBXGroup;
+			children = (
+				84FDDB6321FA4DC3007C21F1 /* DateTools.bundle */,
+				84FDDB6421FA4DC3007C21F1 /* Constants.swift */,
+				84FDDB6521FA4DC3007C21F1 /* Date+Format.swift */,
+				84FDDB6621FA4DC3007C21F1 /* Date+Manipulations.swift */,
+				84FDDB6721FA4DC3007C21F1 /* TimePeriod.swift */,
+				84FDDB6821FA4DC3007C21F1 /* Date+Components.swift */,
+				84FDDB6921FA4DC3007C21F1 /* TimePeriodGroup.swift */,
+				84FDDB6A21FA4DC3007C21F1 /* Enums.swift */,
+				84FDDB6B21FA4DC3007C21F1 /* TimeChunk.swift */,
+				84FDDB6C21FA4DC3007C21F1 /* TimePeriodChain.swift */,
+				84FDDB6D21FA4DC3007C21F1 /* Date+Comparators.swift */,
+				84FDDB6E21FA4DC3007C21F1 /* Date+Inits.swift */,
+				84FDDB6F21FA4DC3007C21F1 /* Date+TimeAgo.swift */,
+				84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */,
+				84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */,
+				84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */,
+			);
+			path = DateTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +450,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FDDB5D21FA48D0007C21F1 /* PickAndChooseDate.xib in Resources */,
+				84FDDB7321FA4DC4007C21F1 /* DateTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +469,55 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FDDB7A21FA4DC4007C21F1 /* Enums.swift in Sources */,
+				84FDDB5821FA4856007C21F1 /* SegmentedControl.swift in Sources */,
+				84FDDB5921FA4856007C21F1 /* GradientSlider.swift in Sources */,
+				84FDDB8221FA4DC4007C21F1 /* TimePeriodCollection.swift in Sources */,
+				84FDDB5A21FA4856007C21F1 /* TextField.swift in Sources */,
+				84FDDB4E21FA4856007C21F1 /* ContactCell.swift in Sources */,
+				84FDDB2A21FA4856007C21F1 /* UIViewController+Extensions.swift in Sources */,
+				84FDDB5B21FA4856007C21F1 /* Button.swift in Sources */,
+				84FDDB4B21FA4856007C21F1 /* ContactsPickerViewController.swift in Sources */,
+				84FDDB7621FA4DC4007C21F1 /* Date+Manipulations.swift in Sources */,
+				84FDDB2D21FA4856007C21F1 /* String+Extensions.swift in Sources */,
+				84FDDB7F21FA4DC4007C21F1 /* Date+TimeAgo.swift in Sources */,
+				84FDDB4A21FA4856007C21F1 /* PickerViewViewController.swift in Sources */,
+				84FDDB7C21FA4DC4007C21F1 /* TimePeriodChain.swift in Sources */,
+				84FDDB4221FA4856007C21F1 /* OneTextFieldViewController.swift in Sources */,
+				84FDDB3221FA4856007C21F1 /* UIApplication+Extensions.swift in Sources */,
+				84FDDB3721FA4856007C21F1 /* UITextField+Extensions.swift in Sources */,
+				84FDDB5F21FA492A007C21F1 /* PickAndChooseDate.swift in Sources */,
+				84FDDB3121FA4856007C21F1 /* UISearchBar+Extensions.swift in Sources */,
+				84FDDB2921FA4856007C21F1 /* UIImageView+Extensions.swift in Sources */,
+				84FDDB2B21FA4856007C21F1 /* UIView+Extensions.swift in Sources */,
+				84FDDB7E21FA4DC4007C21F1 /* Date+Inits.swift in Sources */,
+				84FDDB7B21FA4DC4007C21F1 /* TimeChunk.swift in Sources */,
+				84FDDB2821FA4856007C21F1 /* UISegmentedControl+Extensions.swift in Sources */,
+				84FDDB4121FA4856007C21F1 /* TwoTextFieldsViewController.swift in Sources */,
+				84FDDB7521FA4DC4007C21F1 /* Date+Format.swift in Sources */,
+				84FDDB4D21FA4856007C21F1 /* Contact.swift in Sources */,
+				84FDDB3321FA4856007C21F1 /* UIAlertController+Extensions.swift in Sources */,
+				84FDDB8021FA4DC4007C21F1 /* Integer+DateTools.swift in Sources */,
+				84FDDB2721FA4856007C21F1 /* Array+Extensions.swift in Sources */,
+				84FDDB3421FA4856007C21F1 /* Optional+Extensions.swift in Sources */,
+				84FDDB2C21FA4856007C21F1 /* Date+Extension.swift in Sources */,
+				84FDDB8121FA4DC4007C21F1 /* Date+Bundle.swift in Sources */,
+				84FDDB7721FA4DC4007C21F1 /* TimePeriod.swift in Sources */,
+				84FDDB7D21FA4DC4007C21F1 /* Date+Comparators.swift in Sources */,
+				84FDDB3021FA4856007C21F1 /* UIImage+Extensions.swift in Sources */,
+				84FDDB2F21FA4856007C21F1 /* UIColor+Extensions.swift in Sources */,
+				84FDDB7421FA4DC4007C21F1 /* Constants.swift in Sources */,
+				84FDDB5021FA4856007C21F1 /* DatePickerViewController.swift in Sources */,
+				84FDDB5721FA4856007C21F1 /* Label.swift in Sources */,
+				84FDDB7921FA4DC4007C21F1 /* TimePeriodGroup.swift in Sources */,
+				84FDDB3821FA4856007C21F1 /* AttributedTextBlock.swift in Sources */,
+				84FDDB7821FA4DC4007C21F1 /* Date+Components.swift in Sources */,
+				84FDDB3621FA4856007C21F1 /* Locale+Extensions.swift in Sources */,
+				84FDDB3521FA4856007C21F1 /* Common+Extensions.swift in Sources */,
+				84FDDB6121FA493A007C21F1 /* PaddedLabel.swift in Sources */,
+				84FDDB3921FA4856007C21F1 /* TextViewController.swift in Sources */,
+				84FDDB4C21FA4856007C21F1 /* Contacts.swift in Sources */,
+				84FDDB2E21FA4856007C21F1 /* UITextView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +715,7 @@
 		84FDDAD321FA4813007C21F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 833AT2F722;
 				INFOPLIST_FILE = PickAndChooseDateTests/Info.plist;
@@ -409,6 +734,7 @@
 		84FDDAD421FA4813007C21F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 833AT2F722;
 				INFOPLIST_FILE = PickAndChooseDateTests/Info.plist;
