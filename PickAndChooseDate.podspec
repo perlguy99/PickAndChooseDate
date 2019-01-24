@@ -14,7 +14,7 @@ spec.name                  = "PickAndChooseDate"
 spec.summary               = "A UILabel for dates integrated with a Date Picker."
 spec.requires_arc          = true
 
-spec.version               = "1.0.0"
+spec.version               = "1.0.1"
 
 spec.license               = { :type => "MIT", :file => "LICENSE" }
 
@@ -26,6 +26,7 @@ spec.social_media_url      = "https://twitter.com/Perlguy2"
 spec.source                = { :git => "https://github.com/perlguy99/PickAndChooseDate.git", :tag => "#{spec.version}" }
 
 spec.framework             = "UIKit"
+spec.dependency 'DateToolsSwift'
 
 spec.source_files          = "PickAndChooseDate/**/*.{swift}"
 

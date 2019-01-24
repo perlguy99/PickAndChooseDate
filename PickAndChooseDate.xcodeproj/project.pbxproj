@@ -45,24 +45,10 @@
 		84FDDB5D21FA48D0007C21F1 /* PickAndChooseDate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDB5C21FA48D0007C21F1 /* PickAndChooseDate.xib */; };
 		84FDDB5F21FA492A007C21F1 /* PickAndChooseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB5E21FA492A007C21F1 /* PickAndChooseDate.swift */; };
 		84FDDB6121FA493A007C21F1 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6021FA493A007C21F1 /* PaddedLabel.swift */; };
-		84FDDB7321FA4DC4007C21F1 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDB6321FA4DC3007C21F1 /* DateTools.bundle */; };
-		84FDDB7421FA4DC4007C21F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6421FA4DC3007C21F1 /* Constants.swift */; };
-		84FDDB7521FA4DC4007C21F1 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6521FA4DC3007C21F1 /* Date+Format.swift */; };
-		84FDDB7621FA4DC4007C21F1 /* Date+Manipulations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6621FA4DC3007C21F1 /* Date+Manipulations.swift */; };
-		84FDDB7721FA4DC4007C21F1 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6721FA4DC3007C21F1 /* TimePeriod.swift */; };
-		84FDDB7821FA4DC4007C21F1 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6821FA4DC3007C21F1 /* Date+Components.swift */; };
-		84FDDB7921FA4DC4007C21F1 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6921FA4DC3007C21F1 /* TimePeriodGroup.swift */; };
-		84FDDB7A21FA4DC4007C21F1 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6A21FA4DC3007C21F1 /* Enums.swift */; };
-		84FDDB7B21FA4DC4007C21F1 /* TimeChunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6B21FA4DC3007C21F1 /* TimeChunk.swift */; };
-		84FDDB7C21FA4DC4007C21F1 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6C21FA4DC3007C21F1 /* TimePeriodChain.swift */; };
-		84FDDB7D21FA4DC4007C21F1 /* Date+Comparators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6D21FA4DC3007C21F1 /* Date+Comparators.swift */; };
-		84FDDB7E21FA4DC4007C21F1 /* Date+Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6E21FA4DC3007C21F1 /* Date+Inits.swift */; };
-		84FDDB7F21FA4DC4007C21F1 /* Date+TimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB6F21FA4DC3007C21F1 /* Date+TimeAgo.swift */; };
-		84FDDB8021FA4DC4007C21F1 /* Integer+DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */; };
-		84FDDB8121FA4DC4007C21F1 /* Date+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */; };
-		84FDDB8221FA4DC4007C21F1 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */; };
 		84FDDBA421FA521F007C21F1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDBA221FA521E007C21F1 /* LICENSE */; };
 		84FDDBA521FA521F007C21F1 /* PickAndChooseDate.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84FDDBA321FA521F007C21F1 /* PickAndChooseDate.podspec */; };
+		E0E5415D1C80DBCE6D84C3BB /* libPods-PickAndChooseDateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0906C5D52CBB54D3A4B353F /* libPods-PickAndChooseDateTests.a */; };
+		FAFA17377E1AB782464B993E /* libPods-PickAndChooseDate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 473842BA25DCACC722745D76 /* libPods-PickAndChooseDate.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		473842BA25DCACC722745D76 /* libPods-PickAndChooseDate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PickAndChooseDate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661B74867D59FBFEC5F9DB4C /* Pods-PickAndChooseDate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChooseDate.release.xcconfig"; path = "Target Support Files/Pods-PickAndChooseDate/Pods-PickAndChooseDate.release.xcconfig"; sourceTree = "<group>"; };
+		6ED88E9386AAB8F30094C93B /* Pods-PickAndChooseDateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChooseDateTests.release.xcconfig"; path = "Target Support Files/Pods-PickAndChooseDateTests/Pods-PickAndChooseDateTests.release.xcconfig"; sourceTree = "<group>"; };
 		84FDDABB21FA4812007C21F1 /* PickAndChooseDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickAndChooseDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FDDABE21FA4812007C21F1 /* PickAndChooseDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickAndChooseDate.h; sourceTree = "<group>"; };
 		84FDDABF21FA4812007C21F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,24 +106,11 @@
 		84FDDB5C21FA48D0007C21F1 /* PickAndChooseDate.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickAndChooseDate.xib; sourceTree = "<group>"; };
 		84FDDB5E21FA492A007C21F1 /* PickAndChooseDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAndChooseDate.swift; sourceTree = "<group>"; };
 		84FDDB6021FA493A007C21F1 /* PaddedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
-		84FDDB6321FA4DC3007C21F1 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DateTools.bundle; sourceTree = "<group>"; };
-		84FDDB6421FA4DC3007C21F1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		84FDDB6521FA4DC3007C21F1 /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
-		84FDDB6621FA4DC3007C21F1 /* Date+Manipulations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Manipulations.swift"; sourceTree = "<group>"; };
-		84FDDB6721FA4DC3007C21F1 /* TimePeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriod.swift; sourceTree = "<group>"; };
-		84FDDB6821FA4DC3007C21F1 /* Date+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Components.swift"; sourceTree = "<group>"; };
-		84FDDB6921FA4DC3007C21F1 /* TimePeriodGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodGroup.swift; sourceTree = "<group>"; };
-		84FDDB6A21FA4DC3007C21F1 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		84FDDB6B21FA4DC3007C21F1 /* TimeChunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChunk.swift; sourceTree = "<group>"; };
-		84FDDB6C21FA4DC3007C21F1 /* TimePeriodChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodChain.swift; sourceTree = "<group>"; };
-		84FDDB6D21FA4DC3007C21F1 /* Date+Comparators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Comparators.swift"; sourceTree = "<group>"; };
-		84FDDB6E21FA4DC3007C21F1 /* Date+Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Inits.swift"; sourceTree = "<group>"; };
-		84FDDB6F21FA4DC3007C21F1 /* Date+TimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+TimeAgo.swift"; sourceTree = "<group>"; };
-		84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer+DateTools.swift"; sourceTree = "<group>"; };
-		84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Bundle.swift"; sourceTree = "<group>"; };
-		84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriodCollection.swift; sourceTree = "<group>"; };
 		84FDDBA221FA521E007C21F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		84FDDBA321FA521F007C21F1 /* PickAndChooseDate.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PickAndChooseDate.podspec; sourceTree = "<group>"; };
+		AF86278A9343AB6EF9CBE64E /* Pods-PickAndChooseDateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChooseDateTests.debug.xcconfig"; path = "Target Support Files/Pods-PickAndChooseDateTests/Pods-PickAndChooseDateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0906C5D52CBB54D3A4B353F /* libPods-PickAndChooseDateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PickAndChooseDateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB477CFF2EDF01E2898F0B /* Pods-PickAndChooseDate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickAndChooseDate.debug.xcconfig"; path = "Target Support Files/Pods-PickAndChooseDate/Pods-PickAndChooseDate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFA17377E1AB782464B993E /* libPods-PickAndChooseDate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,12 +127,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FDDAC521FA4813007C21F1 /* PickAndChooseDate.framework in Frameworks */,
+				E0E5415D1C80DBCE6D84C3BB /* libPods-PickAndChooseDateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319FABCBC75077BECC08B4F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				473842BA25DCACC722745D76 /* libPods-PickAndChooseDate.a */,
+				C0906C5D52CBB54D3A4B353F /* libPods-PickAndChooseDateTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84FDDAB121FA4812007C21F1 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +151,8 @@
 				84FDDABD21FA4812007C21F1 /* PickAndChooseDate */,
 				84FDDAC821FA4813007C21F1 /* PickAndChooseDateTests */,
 				84FDDABC21FA4812007C21F1 /* Products */,
+				F93517EE4D02BC84B4327ACC /* Pods */,
+				319FABCBC75077BECC08B4F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,7 +168,6 @@
 		84FDDABD21FA4812007C21F1 /* PickAndChooseDate */ = {
 			isa = PBXGroup;
 			children = (
-				84FDDB6221FA4DC3007C21F1 /* DateTools */,
 				84FDDAD521FA4856007C21F1 /* AlertsAndPickers */,
 				84FDDABE21FA4812007C21F1 /* PickAndChooseDate.h */,
 				84FDDABF21FA4812007C21F1 /* Info.plist */,
@@ -342,27 +330,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		84FDDB6221FA4DC3007C21F1 /* DateTools */ = {
+		F93517EE4D02BC84B4327ACC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84FDDB6321FA4DC3007C21F1 /* DateTools.bundle */,
-				84FDDB6421FA4DC3007C21F1 /* Constants.swift */,
-				84FDDB6521FA4DC3007C21F1 /* Date+Format.swift */,
-				84FDDB6621FA4DC3007C21F1 /* Date+Manipulations.swift */,
-				84FDDB6721FA4DC3007C21F1 /* TimePeriod.swift */,
-				84FDDB6821FA4DC3007C21F1 /* Date+Components.swift */,
-				84FDDB6921FA4DC3007C21F1 /* TimePeriodGroup.swift */,
-				84FDDB6A21FA4DC3007C21F1 /* Enums.swift */,
-				84FDDB6B21FA4DC3007C21F1 /* TimeChunk.swift */,
-				84FDDB6C21FA4DC3007C21F1 /* TimePeriodChain.swift */,
-				84FDDB6D21FA4DC3007C21F1 /* Date+Comparators.swift */,
-				84FDDB6E21FA4DC3007C21F1 /* Date+Inits.swift */,
-				84FDDB6F21FA4DC3007C21F1 /* Date+TimeAgo.swift */,
-				84FDDB7021FA4DC3007C21F1 /* Integer+DateTools.swift */,
-				84FDDB7121FA4DC3007C21F1 /* Date+Bundle.swift */,
-				84FDDB7221FA4DC3007C21F1 /* TimePeriodCollection.swift */,
+				DDFB477CFF2EDF01E2898F0B /* Pods-PickAndChooseDate.debug.xcconfig */,
+				661B74867D59FBFEC5F9DB4C /* Pods-PickAndChooseDate.release.xcconfig */,
+				AF86278A9343AB6EF9CBE64E /* Pods-PickAndChooseDateTests.debug.xcconfig */,
+				6ED88E9386AAB8F30094C93B /* Pods-PickAndChooseDateTests.release.xcconfig */,
 			);
-			path = DateTools;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,10 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FDDACF21FA4813007C21F1 /* Build configuration list for PBXNativeTarget "PickAndChooseDate" */;
 			buildPhases = (
+				C4B6A58E63925AEFBC54BBA1 /* [CP] Check Pods Manifest.lock */,
 				84FDDAB621FA4812007C21F1 /* Headers */,
 				84FDDAB721FA4812007C21F1 /* Sources */,
 				84FDDAB821FA4812007C21F1 /* Frameworks */,
 				84FDDAB921FA4812007C21F1 /* Resources */,
+				152FA8E7817AF504D162762A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,6 +379,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FDDAD221FA4813007C21F1 /* Build configuration list for PBXNativeTarget "PickAndChooseDateTests" */;
 			buildPhases = (
+				D9B66BD16DE19F645B105BAC /* [CP] Check Pods Manifest.lock */,
 				84FDDAC021FA4813007C21F1 /* Sources */,
 				84FDDAC121FA4813007C21F1 /* Frameworks */,
 				84FDDAC221FA4813007C21F1 /* Resources */,
@@ -459,7 +438,6 @@
 				84FDDBA421FA521F007C21F1 /* LICENSE in Resources */,
 				84FDDB5D21FA48D0007C21F1 /* PickAndChooseDate.xib in Resources */,
 				84FDDBA521FA521F007C21F1 /* PickAndChooseDate.podspec in Resources */,
-				84FDDB7321FA4DC4007C21F1 /* DateTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,25 +450,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		152FA8E7817AF504D162762A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickAndChooseDate/Pods-PickAndChooseDate-resources.sh",
+				"${PODS_ROOT}/DateToolsSwift/DateToolsSwift/DateTools/DateTools.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickAndChooseDate/Pods-PickAndChooseDate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B6A58E63925AEFBC54BBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickAndChooseDate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B66BD16DE19F645B105BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickAndChooseDateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84FDDAB721FA4812007C21F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FDDB7A21FA4DC4007C21F1 /* Enums.swift in Sources */,
 				84FDDB5821FA4856007C21F1 /* SegmentedControl.swift in Sources */,
 				84FDDB5921FA4856007C21F1 /* GradientSlider.swift in Sources */,
-				84FDDB8221FA4DC4007C21F1 /* TimePeriodCollection.swift in Sources */,
 				84FDDB5A21FA4856007C21F1 /* TextField.swift in Sources */,
 				84FDDB4E21FA4856007C21F1 /* ContactCell.swift in Sources */,
 				84FDDB2A21FA4856007C21F1 /* UIViewController+Extensions.swift in Sources */,
 				84FDDB5B21FA4856007C21F1 /* Button.swift in Sources */,
 				84FDDB4B21FA4856007C21F1 /* ContactsPickerViewController.swift in Sources */,
-				84FDDB7621FA4DC4007C21F1 /* Date+Manipulations.swift in Sources */,
 				84FDDB2D21FA4856007C21F1 /* String+Extensions.swift in Sources */,
-				84FDDB7F21FA4DC4007C21F1 /* Date+TimeAgo.swift in Sources */,
 				84FDDB4A21FA4856007C21F1 /* PickerViewViewController.swift in Sources */,
-				84FDDB7C21FA4DC4007C21F1 /* TimePeriodChain.swift in Sources */,
 				84FDDB4221FA4856007C21F1 /* OneTextFieldViewController.swift in Sources */,
 				84FDDB3221FA4856007C21F1 /* UIApplication+Extensions.swift in Sources */,
 				84FDDB3721FA4856007C21F1 /* UITextField+Extensions.swift in Sources */,
@@ -498,28 +540,18 @@
 				84FDDB3121FA4856007C21F1 /* UISearchBar+Extensions.swift in Sources */,
 				84FDDB2921FA4856007C21F1 /* UIImageView+Extensions.swift in Sources */,
 				84FDDB2B21FA4856007C21F1 /* UIView+Extensions.swift in Sources */,
-				84FDDB7E21FA4DC4007C21F1 /* Date+Inits.swift in Sources */,
-				84FDDB7B21FA4DC4007C21F1 /* TimeChunk.swift in Sources */,
 				84FDDB2821FA4856007C21F1 /* UISegmentedControl+Extensions.swift in Sources */,
 				84FDDB4121FA4856007C21F1 /* TwoTextFieldsViewController.swift in Sources */,
-				84FDDB7521FA4DC4007C21F1 /* Date+Format.swift in Sources */,
 				84FDDB4D21FA4856007C21F1 /* Contact.swift in Sources */,
 				84FDDB3321FA4856007C21F1 /* UIAlertController+Extensions.swift in Sources */,
-				84FDDB8021FA4DC4007C21F1 /* Integer+DateTools.swift in Sources */,
 				84FDDB2721FA4856007C21F1 /* Array+Extensions.swift in Sources */,
 				84FDDB3421FA4856007C21F1 /* Optional+Extensions.swift in Sources */,
 				84FDDB2C21FA4856007C21F1 /* Date+Extension.swift in Sources */,
-				84FDDB8121FA4DC4007C21F1 /* Date+Bundle.swift in Sources */,
-				84FDDB7721FA4DC4007C21F1 /* TimePeriod.swift in Sources */,
-				84FDDB7D21FA4DC4007C21F1 /* Date+Comparators.swift in Sources */,
 				84FDDB3021FA4856007C21F1 /* UIImage+Extensions.swift in Sources */,
 				84FDDB2F21FA4856007C21F1 /* UIColor+Extensions.swift in Sources */,
-				84FDDB7421FA4DC4007C21F1 /* Constants.swift in Sources */,
 				84FDDB5021FA4856007C21F1 /* DatePickerViewController.swift in Sources */,
 				84FDDB5721FA4856007C21F1 /* Label.swift in Sources */,
-				84FDDB7921FA4DC4007C21F1 /* TimePeriodGroup.swift in Sources */,
 				84FDDB3821FA4856007C21F1 /* AttributedTextBlock.swift in Sources */,
-				84FDDB7821FA4DC4007C21F1 /* Date+Components.swift in Sources */,
 				84FDDB3621FA4856007C21F1 /* Locale+Extensions.swift in Sources */,
 				84FDDB3521FA4856007C21F1 /* Common+Extensions.swift in Sources */,
 				84FDDB6121FA493A007C21F1 /* PaddedLabel.swift in Sources */,
@@ -672,6 +704,7 @@
 		};
 		84FDDAD021FA4813007C21F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFB477CFF2EDF01E2898F0B /* Pods-PickAndChooseDate.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -698,6 +731,7 @@
 		};
 		84FDDAD121FA4813007C21F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661B74867D59FBFEC5F9DB4C /* Pods-PickAndChooseDate.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -724,6 +758,7 @@
 		};
 		84FDDAD321FA4813007C21F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF86278A9343AB6EF9CBE64E /* Pods-PickAndChooseDateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -743,6 +778,7 @@
 		};
 		84FDDAD421FA4813007C21F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED88E9386AAB8F30094C93B /* Pods-PickAndChooseDateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
