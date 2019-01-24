@@ -14,7 +14,7 @@ spec.name                  = "PickAndChooseDate"
 spec.summary               = "A UILabel for dates integrated with a Date Picker."
 spec.requires_arc          = true
 
-spec.version               = "1.0.2"
+spec.version               = "1.0.3"
 
 spec.license               = { :type => "MIT", :file => "LICENSE" }
 

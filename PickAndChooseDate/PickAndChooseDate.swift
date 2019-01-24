@@ -9,10 +9,6 @@
 import UIKit
 import DateToolsSwift
 
-//public protocol PickAndChooseDateDelegate {
-//    
-//}
-
 
 @IBDesignable
 public class PickAndChooseDate: UIView {
@@ -99,11 +95,18 @@ public class PickAndChooseDate: UIView {
     
     
     @IBInspectable
+    public var bgColor: UIColor = .white {
+        didSet {
+            containerView.backgroundColor = bgColor
+        }
+    }
+    
+    
+    @IBInspectable
     public var placeholderText: String? {
-        get { return pickerLabel.text }
-        set {
+        didSet {
             pickerLabel.textColor = fontColor?.withAlphaComponent(0.6)
-            pickerLabel.text      = newValue
+            pickerLabel.text      = placeholderText
         }
     }
 
@@ -118,56 +121,63 @@ public class PickAndChooseDate: UIView {
     
     @IBInspectable
     public var fontColor: UIColor? {
-        get { return pickerLabel.textColor }
-        set { pickerLabel.textColor = newValue }
+        didSet {
+            pickerLabel.textColor = fontColor
+        }
     }
     
     
     
-    // Overall border
+    // Outer border
     @IBInspectable
-    public var controlBorderColor: UIColor? {
-        get { return containerView.borderColor }
-        set { containerView.borderColor = newValue }
+    public var outerBorder: UIColor? {
+        didSet {
+            containerView.borderColor = outerBorder
+        }
     }
     
     @IBInspectable
-    public var controlBorderWidth: CGFloat {
-        get { return containerView.borderWidth }
-        set { containerView.borderWidth = newValue }
+    public var outerBorderWidth: CGFloat = 0 {
+        didSet {
+            containerView.borderWidth = outerBorderWidth
+        }
     }
     
     @IBInspectable
-    public var controlBorderCornerRadius: CGFloat {
-        get { return containerView.layer.cornerRadius }
-        set { containerView.layer.cornerRadius = newValue }
+    public var outerBorderCornerRadius: CGFloat = 0 {
+        didSet {
+            containerView.layer.cornerRadius = outerBorderCornerRadius
+        }
     }
     
     
     // Image border
     @IBInspectable
     public var imageBorderColor: UIColor? {
-        get { return pickerImageView.borderColor }
-        set { pickerImageView.borderColor = newValue }
+        didSet {
+            pickerImageView.borderColor = imageBorderColor
+        }
     }
     
     @IBInspectable
-    public var imageBorderWidth: CGFloat {
-        get { return pickerImageView.borderWidth }
-        set { pickerImageView.borderWidth = newValue }
+    public var imageBorderWidth: CGFloat = 0 {
+        didSet {
+            pickerImageView.borderWidth = imageBorderWidth
+        }
     }
     
     @IBInspectable
-    public var imageBorderCornerRadius: CGFloat {
-        get { return pickerImageView.layer.cornerRadius }
-        set { pickerImageView.layer.cornerRadius = newValue }
+    public var imageBorderCornerRadius: CGFloat = 0 {
+        didSet {
+            pickerImageView.layer.cornerRadius = imageBorderCornerRadius
+        }
     }
     
     @IBInspectable
     public var imageHeight: CGFloat = 40 {
-        didSet(newValue) {
-            pickerImageView.size = CGSize(width: newValue, height: newValue)
-            pickerImageViewHeightConstraint.constant = newValue
+        didSet {
+            pickerImageView.size = CGSize(width: imageHeight, height: imageHeight)
+            pickerImageViewHeightConstraint.constant = imageHeight
         }
     }
     
@@ -175,20 +185,23 @@ public class PickAndChooseDate: UIView {
     // Label border
     @IBInspectable
     public var labelBorderColor: UIColor? {
-        get { return pickerLabel.borderColor }
-        set { pickerLabel.borderColor = newValue }
+        didSet {
+            pickerLabel.borderColor = labelBorderColor
+        }
     }
     
     @IBInspectable
-    public var labelBorderWidth: CGFloat {
-        get { return pickerLabel.borderWidth }
-        set { pickerLabel.borderWidth = newValue }
+    public var labelBorderWidth: CGFloat = 0 {
+        didSet {
+            pickerLabel.borderWidth = labelBorderWidth
+        }
     }
     
     @IBInspectable
-    public var labelBorderCornerRadius: CGFloat {
-        get { return pickerLabel.layer.cornerRadius }
-        set { pickerLabel.layer.cornerRadius = newValue }
+    public var labelBorderCornerRadius: CGFloat = 0 {
+        didSet {
+            pickerLabel.layer.cornerRadius = labelBorderCornerRadius
+        }
     }
     
     
